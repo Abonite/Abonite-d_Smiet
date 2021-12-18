@@ -116,4 +116,4 @@ backup:
   theme: fluid
   message: Back up of www.abonite.top
   repository:
-    github: git@github.com:Abonite/Abonite-d_Smiet.git,master
+    github: git@github.com:Abonite/Abonite-d_Smiet.git
