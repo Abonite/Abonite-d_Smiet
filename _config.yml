@@ -111,6 +111,7 @@ deploy:
   type: git
   message: Back up of www.abonite.top
   repository: git@github.com:Abonite/Abonite-d_Smiet.git
+  branch: master
 
 backup:
   type: git
