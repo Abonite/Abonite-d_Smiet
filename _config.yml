@@ -111,13 +111,11 @@ deploy:
   type: git
   theme: fluid
   message: Back up of www.abonite.top
-  repository:
-    github: git@github.com:Abonite/Abonite-d_Smiet.git
+  repository: git@github.com:Abonite/Abonite-d_Smiet.git
 
 
 backup:
   type: git
   theme: fluid
   message: Back up of www.abonite.top
-  repository:
-    github: git@github.com:Abonite/Abonite-d_Smiet.git
+  repository: git@github.com:Abonite/Abonite-d_Smiet.git
