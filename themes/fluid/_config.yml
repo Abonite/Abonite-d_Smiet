@@ -709,10 +709,10 @@ gitalk:
 # Based on LeanCloud
 # See: https://valine.js.org/
 valine:
-  appId:
-  appKey:
+  appId: rF4FsRlsHgyzhYoFlyceqDV0-gzGzoHsz
+  appKey: hGqQWQNPiPbwFD5oancV4i6e
   path: window.location.pathname
-  placeholder:
+  placeholder: "tell me what you are thinking..."
   avatar: 'retro'
   meta: ['nick', 'mail', 'link']
   requiredFields: []
