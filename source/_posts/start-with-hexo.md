@@ -1,7 +1,11 @@
 ---
 title: 使用Hexo搭建自己的个人Blog
 date: 2021-12-18 22:56:40
-tags: 技术, hexo
+categories:
+- 技术
+tags: 
+- 技术
+- hexo
 ---
 
 ## 事故
@@ -18,11 +22,11 @@ Wordpress对我来说确实有些大材小用了。如果只是利用网站写�
 
 首先需要检查计算机上是否安装了node.js和git。我们需要使用node.js和git安装hexo框架，并且使用git备份我们的网站。
 
-```shell
+{% codeblock lang:shell %}
 node -v
 npm -v
 git --version
-```
+{% endcodeblock %}
 
 一般来说，以上软件无脑选择版本最新的稳定版即可。如果版本过低，可能会引起一些问题。比如版本过低时，运行hexo g时可能会报出“line.matchAll is not function”错误，此时应该升级nodejs到12.0.0以上。具体node.js版本与hexo版本的对应关系，可以查阅hexo官方的文档 [概述部分](https://hexo.io/zh-cn/docs/)。
 
@@ -77,5 +81,7 @@ hexo new post title_of_new_post
 然后进入hexo根路径的source文件夹下，就可以看到新生成的markdown文件。
 
 ---
-<font size=1>We always have some impractical illusions, about our life, about the people around us, about the stars in the sky.</font>
-<font size=1>我们总有些不切实际的幻想，关于我们的生活，关于我们身边的人，关于天上的星星。</font>
+{% blockquote %}
+We always have some impractical illusions, about our life, about the people around us, about the stars in the sky.
+我们总有些不切实际的幻想，关于我们的生活，关于我们身边的人，关于天上的星星。
+{% endblockquote %}
