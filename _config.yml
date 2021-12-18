@@ -108,8 +108,12 @@ theme: fluid
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
+  type: ''
+
+
+backup:
   type: git
   theme: fluid
-  message: Back up www.abonite.top
+  message: Back up of www.abonite.top
   repository:
     github: git@github.com:Abonite/Abonite-d_Smiet.git,master
