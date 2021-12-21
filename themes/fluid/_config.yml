@@ -643,11 +643,11 @@ post:
   # 评论插件
   # Comment plugin
   comments:
-    enable: false
+    enable: true
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis
-    type: disqus
+    type: gitalk
 
 
 #---------------------------
@@ -686,12 +686,12 @@ disqus:
 # 基于 GitHub Issues
 # Based on GitHub Issues
 # See: https://github.com/gitalk/gitalk#options
-gitalk:
-  clientID:
-  clientSecret:
-  repo:
-  owner:
-  admin: ['name']
+gitalk: 
+  clientID: 6266838a50bb74a5c4b0
+  clientSecret: 60d53059e3ca43ddbd2e34aeffdd2408d39a4c09
+  repo: Abonite-d_Smiet
+  owner: Abonite
+  admin: Abonite
   language: zh-CN
   labels: ['Gitalk']
   perPage: 10
@@ -709,10 +709,10 @@ gitalk:
 # Based on LeanCloud
 # See: https://valine.js.org/
 valine:
-  appId: rF4FsRlsHgyzhYoFlyceqDV0-gzGzoHsz
-  appKey: hGqQWQNPiPbwFD5oancV4i6e
+  appId: 
+  appKey: 
   path: window.location.pathname
-  placeholder: "tell me what you are thinking..."
+  placeholder: ""
   avatar: 'retro'
   meta: ['nick', 'mail', 'link']
   requiredFields: []

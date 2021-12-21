@@ -1,6 +1,7 @@
 ---
 title: 使用Hexo搭建自己的个人Blog
 date: 2021-12-18 22:56:40
+comment: 'gitalk'
 categories:
 - 技术
 tags: 
